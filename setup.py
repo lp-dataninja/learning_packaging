@@ -36,7 +36,7 @@ def list_reqs(fname="requirements.txt"):
 # Where the magic happens:
 setup(
     name='mlmodelswrapper',
-    version='0.0.1',
+    version='0.0.4',
     description=DESCRIPTION,
     long_description=long_description,
     author="Ladle Patel",
