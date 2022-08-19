@@ -14,6 +14,15 @@ from sklearn.ensemble import RandomForestClassifier
 
 
 def regressors(X, y):
+    """regression models
+
+    Args:
+        X (_type_): features
+        y (_type_): label
+
+    Returns:
+        _type_: result
+    """
     X_train, X_test, y_train, y_test = train_test_split(X, y,
                                                    random_state = 0)
     lr = LinearRegression().fit(X_train, y_train)
@@ -46,6 +55,15 @@ def regressors(X, y):
 
 
 def classifiers(X, y):
+    """classification models
+
+    Args:
+        X (_type_): features
+        y (_type_): label
+
+    Returns:
+        _type_: accuracy
+    """
     X_train, X_test, y_train, y_test = train_test_split(X, y,
                                                    random_state = 0)
     
