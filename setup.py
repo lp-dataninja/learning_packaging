@@ -6,7 +6,7 @@ from pathlib import Path
 from setuptools import find_packages, setup
 
 # Package meta-data.
-NAME = 'pymlmodels'
+NAME = 'mlmodelswrapper'
 DESCRIPTION = "Python ML Models"
 URL = "https://github.com/lp-dataninja/learning_packaging"
 EMAIL = "lp.dataninja@gmai.com"
@@ -35,7 +35,7 @@ def list_reqs(fname="requirements.txt"):
 
 # Where the magic happens:
 setup(
-    name='pymlmodels',
+    name='mlmodelswrapper',
     version='0.0.1',
     description=DESCRIPTION,
     long_description=long_description,
